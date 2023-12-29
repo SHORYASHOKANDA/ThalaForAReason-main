@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('assets/9496d6dc0c8949d6edd885e07f02cfe6.jpg');
+    background-size: cover; /* Use cover to ensure the background image covers the entire viewport */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default body margin */
+}
+
+/* Header Styles */
+header {
+    color: #fff;
+    text-align: center;
+}
+
+/* Main Content Styles */
+h1 {
+    color: #ffffff; /* Dark color for the main heading */
+}
+
+input[type="text"] {
+    border: 1px solid #ced4da; /* Add a subtle border to the input field */
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.2); /* Add a brightness effect on hover for buttons */
+}
+
+/* Share Button Styles */
+button.share-button {
+    background-color: #38a169; /* Green color for the share button */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    color: #6b7280;
+}
+
+/* Audio Player Styles */
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Add responsive styles here, e.g., adjust font sizes or margins */
+}
